@@ -1,0 +1,45 @@
+h1{
+    color: darkblue;
+    text-align: center;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+ul{
+    list-style:none;
+    display:block;
+}
+
+li{
+    margin-right: 0px;
+    display:block;
+    font-family: monospace;
+}
+
+label{
+    font-family: sans-serif;
+}
+
+input{
+    display:block;
+}
+
+artcile{
+    display:inline;
+    float:left;
+}
+
+textarea{
+    display: block;
+    width: 80%;
+    height: 100px;
+}
+
+@media print{
+    input, textarea, form{
+        display:none;
+    }
+}
+
